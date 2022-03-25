@@ -1,7 +1,7 @@
 # squadQuery
 Simple library that implements [server queries](https://developer.valvesoftware.com/wiki/Server_queries#A2S_RULES)
 for Squad. Provides methods to fetch `A2S_INFO` and `A2S_Rules` responses. `A2S_PLAYERS` responses
-are not implemented as these are broken for Squad, see [Why A2S_PLAYERS Requests Are Not Supported](#why-a2s-players-requests-are-not-supported)
+are not implemented as these are broken for Squad, see [Why A2S_PLAYERS Requests Are Not Supported](#why-a2s_players-requests-are-not-supported)
 for more information.
 
 ### Using squadQuery
