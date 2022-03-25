@@ -44,9 +44,9 @@ public class Tester {
 ```
 See the following for specific usages:
 
-* [Query]()
-* [A2SInfoResponse]()
-* [A2SRulesResponse]()
+* [Query](https://github.com/roengle/squadQuery/blob/main/src/query/Query.java)
+* [A2SInfoResponse](https://github.com/roengle/squadQuery/blob/main/src/response/A2SInfoResponse.java)
+* [A2SRulesResponse](https://github.com/roengle/squadQuery/blob/main/src/response/A2SRulesResponse.java)
 
 ### Why A2S_PLAYERS Requests Are Not Supported
 Per [the documentation](https://developer.valvesoftware.com/wiki/Server_queries#Multi-packet_Response_Format) for Source Queries,
