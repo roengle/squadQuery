@@ -48,13 +48,16 @@ public class A2SRulesResponse extends Response{
 
     @Override
     public String toString() {
+        AtomicReference<String> rules = new AtomicReference<>("{");
         ruleMap.forEach((k, v) -> {
-            System.out.println(k + ":" + v);
+            rules.set(rules.get() + k + " : " + v + ", ");
         });
+        rules.set(rules.get().substring(0, rules.get().length() - 2));
+        rules.set(rules.get() + "}");
 
         return new StringJoiner(", ", A2SRulesResponse.class.getSimpleName() + "[", "]")
                 .add("numRules=" + numRules)
-                .add("ruleMap=" + ruleMap)
+                .add("ruleMap=" + rules)
                 .toString();
     }
 }
