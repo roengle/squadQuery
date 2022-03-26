@@ -57,7 +57,7 @@ Squad server. Until Squad servers respond to `A2S_PLAYERS` queries differently, 
 
 An alternative to this would be connecting to the RCON server running on the Squad server, and getting the response of the 
 `ListPlayers` command, which would appropriately split packets as needed to return a full response. A downside to this approach 
-is that you're required to have the server's RCON password, whereas you would not need any credentials.
+is that you're required to have the server's RCON password, whereas you would not need any credentials using server queries.
 
 ## Credits
 * [Source Query Protocol Wiki](https://developer.valvesoftware.com/wiki/Server_queries)
